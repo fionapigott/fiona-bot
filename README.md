@@ -1,13 +1,14 @@
 # fiona-bot
 Niche millennial content aggregation (i.e., make a basic Twitter bot)
 
-# Call your senators:
+# Call your senators (get_representatives_bot.py):
 ## A simple bot to Tweet the phone numbers of your elected representatives
 ### Requirements:
 - Python3
 - tweepy
 - requests
 - pyyaml
+
 ### Public Twitter API access
 This code depends on you having set up access to the Twitter Public API, so do that first (look up twurl for some instructions). I'm going to use the default .twurlrc setup for a credentials file. If you already have a .twurlrc, it should work. Otherwise, create one. It should look like this:
 
@@ -24,6 +25,7 @@ This code depends on you having set up access to the Twitter Public API, so do t
           secret: < SECRET >
           consumer_secret: < CONSUMER SECRET >
           consumer_key: < CONSUMER KEY >
+
 ### Google Civic API Access
 You'll also need access to the Google Civic Information API. Information on that is here: https://developers.google.com/civic-information/
 
