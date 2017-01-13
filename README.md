@@ -18,7 +18,7 @@ This code depends on you having set up access to the Twitter Public API, so do t
       - < your screen name >
       - < CONSUMER KEY >
     profiles: 
-      notFromShrek: 
+      < your screen name >: 
         < CONSUMER KEY >: 
           username: < your screen name >
           token: < TOKEN >
