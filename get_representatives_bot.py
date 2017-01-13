@@ -84,4 +84,4 @@ class ZipcodeListener(tweepy.StreamListener):
 zipcode_listener = ZipcodeListener()
 zipcode_stream = tweepy.Stream(auth = api.auth, listener=zipcode_listener)
 
-zipcode_stream.filter(track = ["@RobotPrincessFi"])
+zipcode_stream.filter(track = [creds["configuration"]["default_profile"][0]])
